@@ -3,9 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Organic Store</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="container-logo">
+                <img src="/image/leaf.png" alt="" id="leaf">
+                <p>Organic</p>
+            </div>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/Shop.html">Shop</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="pages/shop detail.html">Detail</a></li>
+                <span class="material-symbols-outlined">search</span>
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        const toggle = document.getElementById("menu-toggle");
+        const nav = document.getElementById("nav-links");
+
+        toggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    </script>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h4>Think With Your Heart 🌱</h4>
+            <h1>Choose With Healthy <br>Product</h1>
+            <p>Our fresh Vietnamese vegetable rolls look fine, tasty, and better.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+        <img src="/image/imageone.png" alt="Vegetables Basket">
+    </section>
+
+    <section class="wavy-section">
+        <div class="content-container">
+            <img src="/image/youandme.png" alt="" />
+            <div class="text-content">
+            <div class="guarantee-label">
+                <span>🍎OUR QUALITY GUARANTEE</span>
+            </div>
+            <h2>Quality you can taste</h2>
+            <p>We’re so confident in the quality of our produce and groceries, we’re putting our money on the line. If anything in your delivery doesn’t live up to our quality standards, we’ll make it right ASAP.</p>
+            </div>
+        </div>
+        <div class="bottom-wave-1"></div>
+        <div class="bottom-wave-2"></div>
+    </section>
+
+    <section class="in">
+         <h2>Introduct new product</h2>
+         <div  class="p">
+            <p>Quickly conceptu market positioning leadership whereas future proof synergy Energistically.
+            <br> disinterme high payoff niche markets for supply chains.</p>
+        </div>
+        <div class="product-contener">
+            <div class="product-card">
+                <img src="../image/product1.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/product2.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/product4.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/product11.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+              <div class="product-card">
+                <img src="../image/product5.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/shop103.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/product7.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/product8.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="../image/product9.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="/image/shop101.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="/image/shop102.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="/image/shop100.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="/image/shop103.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="/image/shop104.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="product-card">
+                <img src="/image/shop105.png" alt="Tomato" id="dop">
+                <h3>Fresh Organic Food</h3>
+                <p class="price">$10.00</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- new -->
+    <div class="section">
+        <div class="Story">
+        <h3>Fresh Excotic Fruit </h3>
+        <h2>In our store</h2>
+        <p>
+            empowering farmers to move their businesses online and accept orders from customers. <br> Today,
+            is trusted by food producers across North America and beyond.
+        </p>
+            <button>ADD</button>
+        </div>
+        <div class="peaches">
+            <img src="./image/grep3.png" alt="" />
+        </div>
+    </div>
+
+    <div class="cardd-last">
+        <div class="cardd">
+            <img src="/image/grep4.png" alt="Fruits" />
+            <div class="label green-bg"> fresh fruits</div>
+        </div>
+        <div class="cardd">
+            <img src="/image/grep6.png" alt="Strawberry" />
+            <div class="label gray-bg">Free delivery</div>
+        </div>
+        <div class="cardd">
+            <img src="/image/grep5.png" alt="Broccoli" />
+            <div class="label yellow-bg">Discount 40%</div>
+        </div>
+        <div class="cardd">
+            <img src="/image/grep7.png" alt="Broccoli" />
+            <div class="label blue-bg">Payment met</div>
+        </div>
+    </div>
+
+    <div class="costomer">
+        <h4>What the best costomer saying </h4>
+        <p>I love everything about this veggie delivery service — the quality, the convenience, and the thoughtfulness. <br> The vegetables are always clean, fresh, and packed securely. Delivery is always punctual, is very professional. <br> I recommend it to all my friends and family!</p>
+        <div>
+            <div class="sta">★★★★★</div>
+        </div>
+
+        <div class="reviewers">
+            <img src="/image/costomer.png" alt="Reviewer " class="reviewer-photo" />
+            <img src="/image/costomer1.png" alt="Reviewer " class="reviewer-photo1" />
+            <img src="/image/costomer2.png" alt="Reviewer " class="reviewer-photo2" />
+            <img src="/image/costomer3.png" alt="Reviewer " class="reviewer-photo3" />
+            <img src="/image/costomer5.png" alt="Reviewer " class="reviewer-photo4" />
+        </div>
+        <h6>Our happy</h6>
+        <h5>Costomer saying about our website</h5>
+    </div> 
+
+   <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <div style="display: flex;">
+                    <h2 class="title-footer">Organic</h2>
+                </div>
+                <div><p>Energistically utilize timely method of <br>empowerment and worldwidey <br>niches dynamically.</p></div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab twitter"></i><span class="material-symbols-outlined">mark_email_read</span></a>
+                    <a href="#"><i class="fab facebook"><span class="material-symbols-outlined">gif</span></i></a>
+                    <a href="#"><i class="fab instagram"><span class="material-symbols-outlined">youtube_activity</span></i></a>
+                    <a href="#"><i class="fab instagram"><span class="material-symbols-outlined">thread_unread</span></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 class="title-footer">Explore</h3>
+                <ul>
+                    <li><a href="#">About Company</a></li>
+                    <li><a href="#">Our Service</a></li>
+                    <li><a href="#">Become a Seller</a></li>
+                    <li><a href="#">New Product</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-gallery center">
+                <h2 class="title-footer">Gallery</h2>
+                <div class="images">
+                    <img src="../image/footer1.png" alt="">
+                    <img src="../image/footer2.png" alt="">
+                    <img src="../image/footer3.png" alt="">
+                    <img src="../image/footer4.png" alt="">
+                    <img src="../image/footer5.png" alt="">
+                    <img src="../image/footer6.png" alt="">
+                </div>
+            </div>
+            <div class="footer-contact center">
+                <h3 class="title-footer">Contact Us</h3>
+                <p><i class="fas map-marker-alt"></i> 1000 5th Ave, New York, NY 10028</p>
+                <p><i class="fas envelope"></i> needhelp@gmail.com</p>
+                <p><i class="fas phone"></i> +1 212-535-7710</p>
+                <p><i class="fas globe"></i> www.yoursite.com</p>
+            </div>
+        </div>
+        <hr style="color: gray;">
+        <p class="rice">
+            © Copyright 2022. All Right Reserved by <span>Organic</span>
+        </p>
+    </footer>
 </body>
 </html>
